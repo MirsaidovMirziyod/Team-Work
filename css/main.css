@@ -173,4 +173,95 @@ p {
   background-color: #ffffff;
 }
 
+.section {
+  display: flex;
+  margin: 0 auto;
+  border: 1px solid;
+  width: 1440px;
+  height: 700px;
+  background: #014e56;
+}
+.section__text {
+  display: flex;
+  align-items: start;
+  justify-content: flex-end;
+  width: 50%;
+  height: 100%;
+  background-image: url(../img/stick2.png);
+  background-repeat: no-repeat;
+  background-position: 22% 18%;
+}
+.section__text--ct {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 80%;
+  height: 70%;
+}
+.section__icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  background-image: url(../img/Group8.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 60%;
+}
+
+.s-title {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  width: 380px;
+  line-height: 48px;
+  color: #ffffff;
+}
+
+.items {
+  display: flex;
+  width: 100%;
+  height: 30%;
+}
+.items__img {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  width: 20%;
+  height: 100%;
+}
+.items__text {
+  width: 80%;
+  height: 100%;
+}
+.items__text--title {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #f67e7e;
+}
+.items__text--pretitle {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  width: 400px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
 /*# sourceMappingURL=main.css.map */
