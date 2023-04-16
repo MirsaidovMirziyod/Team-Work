@@ -100,6 +100,10 @@ p {
   color: #ffffff;
 }
 
+.navlist__item--ank:hover {
+  color: #f67e7e;
+}
+
 .warning {
   display: flex;
   width: 1440px;
@@ -209,7 +213,7 @@ p {
 .footer__half2--copyright {
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: center;
   width: 100%;
   height: 50%;
 }
@@ -283,13 +287,78 @@ p {
   font-size: 15px;
   line-height: 25px;
   text-align: right;
-  color: #FFFFFF;
+  color: #ffffff;
   mix-blend-mode: normal;
   opacity: 0.6;
 }
 
 svg:hover > path {
   fill: #f67e7e;
+}
+
+.header__hero {
+  display: flex;
+  width: 100%;
+  height: 80%;
+}
+.header__hero--about {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 40%;
+  height: 100%;
+}
+.header__hero--pretitle {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  height: 100%;
+  background-image: url(../about.img/about8.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.hero__ct {
+  display: flex;
+  align-items: start;
+  justify-content: end;
+  width: 80%;
+  height: 50%;
+}
+.hero__ct--title {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100px;
+  color: #ffffff;
+}
+
+.ct__about {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  width: 100%;
+  height: 30%;
+}
+.ct__about--pretitle {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  width: 640px;
+  color: #ffffff;
+}
+
+.stick {
+  position: absolute;
+  top: -60px;
+  background: #f67e7e;
+  width: 50px;
+  height: 4px;
 }
 
 /*# sourceMappingURL=about.css.map */

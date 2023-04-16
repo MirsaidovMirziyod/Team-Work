@@ -452,7 +452,7 @@ p {
 .footer__half2--copyright {
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: center;
   width: 100%;
   height: 50%;
 }
